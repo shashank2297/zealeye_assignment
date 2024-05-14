@@ -1,0 +1,72 @@
+.mainpage {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.sidebar {
+  background-color: rgb(50, 48, 48);
+  color: white;
+  padding: 10px;
+  height: 100vh;
+
+  ul {
+    padding: 0;
+  }
+
+  ul li {
+    padding: 10px;
+    list-style: none;
+  }
+
+  ul li:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+  }
+
+  span {
+    margin-left: 10px;
+  }
+}
+
+.hdr div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchbar input,
+span {
+  padding: 5px;
+}
+
+.cardsection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+.cardsec {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.iconpos {
+  position: absolute;
+  top: -10px;
+}
+
+.bookings {
+  margin-left: 50px;
+}
